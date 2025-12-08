@@ -11,7 +11,7 @@ const envPattern = {
 const setupENV = function () {
     try {
         if (process.env.ENV_MODE === "DEV") dotenv.config({ path: ".env.development" });
-        else if (process.env.ENV_MODE === "PROD") dotenv.config({ path: ".env.development" })
+        else if (process.env.ENV_MODE === "PROD") dotenv.config({ path: ".env.production" })
         else {
             throw new Error("ENV_MODE is undefined. Set DEV/PROD mode.")
 

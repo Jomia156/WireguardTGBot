@@ -94,9 +94,10 @@ export default class {
                     const command = ctx.data?.split(":") as [string, string]
                     const chatId = ctx.message?.chat.id || 1
                     if (command[0] == "ENTER") {
-                        await this.enterScene(chatId, command[1])
+                        this.enterScene(chatId, command[1])
+                        this.bot.answerCallbackQuery(ctx.id)
                     }
-                }
+                } 
             }
             catch (error) {
 
