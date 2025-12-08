@@ -1,0 +1,35 @@
+{
+  "name": "wireguardtgbot",
+  "version": "1.0.0",
+  "description": "Это бот для управления WireGuard core",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch dist/index.js",
+    "watch": "tsc -w",
+    "run": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jomia156/WireguardTGBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Jomia156/WireguardTGBot/issues"
+  },
+  "homepage": "https://github.com/Jomia156/WireguardTGBot#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ini": "^6.0.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/ini": "^4.1.1",
+    "@types/node": "^24.10.1",
+    "@types/node-telegram-bot-api": "^0.64.13",
+    "@types/qrcode": "^1.5.6"
+  }
+}
