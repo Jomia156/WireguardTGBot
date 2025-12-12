@@ -4,14 +4,6 @@ import { Admins } from "../components/Admins.js";
 
 type State = any
 
-const scenesOn = {
-    "home": function (bot: TelegramBot, chatId: number) {
-
-    }
-}
-
-
-
 export default class {
 
     public bot: TelegramBot;
@@ -33,59 +25,8 @@ export default class {
 
         this.bot.on("polling_error", err => console.error(err));
 
-        this.bot.on("text", async msg => {
-
-            if (!this.admins.check(msg.chat.id)) {
-                this.bot.sendMessage(msg.chat.id, "У вас нет прав на использование бота.")
-                return
-            }
-
-            if (msg.text?.startsWith('/start')) {
-                this.enterScene(msg.chat.id, "home")
-                console.log(msg.text)
-                if (msg.text.split(' ').length == 2) {
-                    const str = msg.text.split(' ')[1] || ""
-                    const token = str.split("_")[0] || ""
-                    const ownerId = Number(str.split("_")[1]) || 1
-
-                    if (this.tokens[token]) {
-                        this.admins.create(msg.from?.id || 1, msg.from?.username || "")
-                        this.bot.sendMessage(ownerId, `Пользователь ${msg.from?.username} назначен администратором.`)
-                        delete this.tokens[token]
-                    }
-                }
-
-            }
-            else if (this.state[String(msg.chat.id)]) {
-                const state = this.state[String(msg.chat.id)]
-
-                if (/get_param.*/.test(state.scene)) {
-                    const sceneName = state.scene.split("?")[0]
-                    const sceneParamsString = state.scene.split("?")[1] || ""
-                    const sceneParamsStringArray = sceneParamsString?.split("&")
-                    let sceneParams: any = {}
-
-                    sceneParamsStringArray?.forEach((paramString: string) => {
-                        const paramName = paramString.split('=')[0] || "bag"
-                        const paramValue = paramString.split('=')[1]
-                        sceneParams[paramName] = paramValue
-                    })
-                    Object.keys(sceneParams).forEach(paramName => {
-                        if (sceneParams[paramName] === "get") {
-                            this.enterScene(msg.chat.id, `${state?.scene.replace("get_param", sceneParams.scene)}&${paramName}=${msg.text}`)
-                        }
-                    })
-
-                }
-                else {
-                    this.enterScene(msg.chat.id, state.scene)
-                }
-
-            }
-            else {
-                this.enterScene(msg.chat.id, "home")
-            }
-
+        this.bot.on("text", async (msg:any)=>{
+            this.textHandler(msg)
         })
 
         this.bot.on('callback_query', async ctx => {
@@ -97,18 +38,70 @@ export default class {
                         this.enterScene(chatId, command[1])
                         this.bot.answerCallbackQuery(ctx.id)
                     }
-                } 
+                }
             }
             catch (error) {
-
                 console.log(error);
-
             }
 
         })
 
 
         console.log("Bot started.")
+    }
+
+
+    public async textHandler(msg: TelegramBot.Message) {
+        if (!this.admins.check(msg.chat.id)) {
+            this.bot.sendMessage(msg.chat.id, "У вас нет прав на использование бота.")
+            return
+        }
+
+        if (msg.text?.startsWith('/start')) {
+            this.enterScene(msg.chat.id, "home")
+            console.log(msg.text)
+            if (msg.text.split(' ').length == 2) {
+                const str = msg.text.split(' ')[1] || ""
+                const token = str.split("_")[0] || ""
+                const ownerId = Number(str.split("_")[1]) || 1
+
+                if (this.tokens[token]) {
+                    this.admins.create(msg.from?.id || 1, msg.from?.username || "")
+                    this.bot.sendMessage(ownerId, `Пользователь ${msg.from?.username} назначен администратором.`)
+                    delete this.tokens[token]
+                }
+            }
+
+        }
+        else if (this.state[String(msg.chat.id)]) {
+            const state = this.state[String(msg.chat.id)]
+
+            if (/get_param.*/.test(state.scene)) {
+                const sceneName = state.scene.split("?")[0]
+                const sceneParamsString = state.scene.split("?")[1] || ""
+                const sceneParamsStringArray = sceneParamsString?.split("&")
+                let sceneParams: any = {}
+
+                sceneParamsStringArray?.forEach((paramString: string) => {
+                    const paramName = paramString.split('=')[0] || "bag"
+                    const paramValue = paramString.split('=')[1]
+                    sceneParams[paramName] = paramValue
+                })
+                Object.keys(sceneParams).forEach(paramName => {
+                    if (sceneParams[paramName] === "get") {
+                        this.enterScene(msg.chat.id, `${state?.scene.replace("get_param", sceneParams.scene)}&${paramName}=${msg.text}`)
+                    }
+                })
+
+            }
+            else {
+                this.enterScene(msg.chat.id, state.scene)
+            }
+
+        }
+        else {
+            this.enterScene(msg.chat.id, "home")
+        }
     }
 
 

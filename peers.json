@@ -1,1 +1,632 @@
-{}
+{
+    "2": {
+        "id": "2",
+        "name": "jomia",
+        "AllowedIPs": "10.66.66.2/32,fd42:42:42::2/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "u7cso6un0scq9pnUC1BIw7/Ik2pfkDDiEYbo8MJOum4=\r",
+        "PresharedKey": "i/kPSRie1cCs0HyxQrQ7LUYByrLSuXBm7nzJ178VWag=\r"
+    },
+    "3": {
+        "id": "3",
+        "name": "n1",
+        "AllowedIPs": "10.66.66.3/32,fd42:42:42::3/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "U+jENwGFaJ8qPUD18cTPdNFqZmsAiKi7xkdZHb4aWkQ=\r",
+        "PresharedKey": "g3rvABkJFJ1WTTOW3z/yoWXPTp3Lo9Xt9cfVb8kYieE=\r"
+    },
+    "4": {
+        "id": "4",
+        "name": "n2",
+        "AllowedIPs": "10.66.66.4/32,fd42:42:42::4/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "sV0904VUdSUnqYchdUGVZX7GDMrsUBkXAynSG9sSkgU=\r",
+        "PresharedKey": "YPioCfXSQSIKKuRfd1kEXOE4tlo00PZhw7JTGUShS0Q=\r"
+    },
+    "5": {
+        "id": "5",
+        "name": "n3",
+        "AllowedIPs": "10.66.66.5/32,fd42:42:42::5/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "y4DxvSs312OMxp36PCiCux1eWtVaRNH6ajRJj3bBiwU=\r",
+        "PresharedKey": "YpjvevpyfcIJCa/v3YnJLvh+QrgKyrWDSGTGKqvhy4k=\r"
+    },
+    "6": {
+        "id": "6",
+        "name": "n4",
+        "AllowedIPs": "10.66.66.6/32,fd42:42:42::6/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "CLKbvTLWHvGQAld8wcJVtfZC0phIxIZeTz1uSy+X3Bc=\r",
+        "PresharedKey": "dxaqT/junLsG46fkmSlgpxWWjTD8cORBafVLZWQ8Mx8=\r"
+    },
+    "8": {
+        "id": "8",
+        "name": "n5",
+        "AllowedIPs": "10.66.66.8/32,fd42:42:42::8/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "3RuPlVxbVusADzkl5lLG96dATKmXfdKsppyjmMsvOHg=\r",
+        "PresharedKey": "L/aCstovhQAue34D8XzWzB4IkNp1RxK0NvxcocVh1Lo=\r"
+    },
+    "9": {
+        "id": "9",
+        "name": "n6",
+        "AllowedIPs": "10.66.66.9/32,fd42:42:42::9/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "17+EEjrbSANTojX0zM7dKtqWXMkhauuC1eZXzpZAuDw=\r",
+        "PresharedKey": "I4M8oJw3L3STL4jHVfB7NoOKfNirjlCXQzK0B75ro88=\r"
+    },
+    "12": {
+        "id": "12",
+        "name": "n8",
+        "AllowedIPs": "10.66.66.12/32,fd42:42:42::12/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "kXx5LoVCybAS+RX8u4xjqMRpb7LYS86qCzzYBQU1q08=\r",
+        "PresharedKey": "twNoj5vei9mKYMaarI52wNGiCrgdgPeKbONhUKEsKgo=\r"
+    },
+    "13": {
+        "id": "13",
+        "name": "n9",
+        "AllowedIPs": "10.66.66.13/32,fd42:42:42::13/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "iMUnmbzeWYuFQQpdKdxDEkj4Mk6/QzNMUKubcEXxBic=\r",
+        "PresharedKey": "1n8RK/8gfSjzEmCKvCRKDampqFeUtQerfbL9+BrJMsM=\r"
+    },
+    "14": {
+        "id": "14",
+        "name": "n11",
+        "AllowedIPs": "10.66.66.14/32,fd42:42:42::14/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "kufYwQnmvezmGY+nUAlF/B9tQAoGQVBRKtlLbpnTrh0=\r",
+        "PresharedKey": "E/9ZZWnOm2yDoUphSHTkoDV6f5WdSEqj1V5HwbSqxYU=\r"
+    },
+    "15": {
+        "id": "15",
+        "name": "n12",
+        "AllowedIPs": "10.66.66.15/32,fd42:42:42::15/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "1N1QiPmmGsxnkmCUvJjrV5uvz6vLD5UGTZI9XRYVR1o=\r",
+        "PresharedKey": "rdD4teEP/P9m9W0ryX9NNH9zjovlqauxxbsRe+azGyM=\r"
+    },
+    "16": {
+        "id": "16",
+        "name": "n13",
+        "AllowedIPs": "10.66.66.16/32,fd42:42:42::16/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "Mat1wn7lxQ/X/DsumH+xUF2H8q5UVCbjcL8uC3r0ISw=\r",
+        "PresharedKey": "fW8TTwUrSOAAm9P1wSCvTjZlShEpDvvs10ZR3kg5pmU=\r"
+    },
+    "17": {
+        "id": "17",
+        "name": "n14",
+        "AllowedIPs": "10.66.66.17/32,fd42:42:42::17/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "mGABc3dbCMTiAKIcNt5x5+nKPjp/R/S7PczlNRpSaAA=\r",
+        "PresharedKey": "0de2nW5CPpARdxIhnM+jcXnrPcjwFuZaOrHuEivnwvw=\r"
+    },
+    "18": {
+        "id": "18",
+        "name": "n15",
+        "AllowedIPs": "10.66.66.18/32,fd42:42:42::18/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "DK35mauWDwWP3MLWFJ/HM+B233/7kfDOUZ1B9JXuNCo=\r",
+        "PresharedKey": "EQ3gzZhG95CxfAMIj2IFRH6RiNkar8o5NNMrFQTOHhU=\r"
+    },
+    "19": {
+        "id": "19",
+        "name": "n17",
+        "AllowedIPs": "10.66.66.19/32,fd42:42:42::19/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "oVaqvcifjl8lAZ+f65E2Xvk3kRMoX3Lx/cOtYxA+9Vo=\r",
+        "PresharedKey": "HjImMxBHCxK5ogrgZZpsgfzq/qXKD1UeAZWvsM/DBxA=\r"
+    },
+    "20": {
+        "id": "20",
+        "name": "n18",
+        "AllowedIPs": "10.66.66.20/32,fd42:42:42::20/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "NcbwL22Qg/isDoc+uzhnuuqEF0JQomOW82Evj7ea/HM=\r",
+        "PresharedKey": "ZVrJuBTyMjPXaPmy7VvfxXaCbCsiCY0tomBE3zk1hXs=\r"
+    },
+    "21": {
+        "id": "21",
+        "name": "n19",
+        "AllowedIPs": "10.66.66.21/32,fd42:42:42::21/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "2jjMiIeQu+AJ91u+WA1PMV6fAZjZ0nTAaTw5IGtXz3U=\r",
+        "PresharedKey": "ibPRLEwdZF+f+ngXeb3oM9gpZVAG2sEwf0uGmKsTNyw=\r"
+    },
+    "22": {
+        "id": "22",
+        "name": "n20",
+        "AllowedIPs": "10.66.66.22/32,fd42:42:42::22/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "Fy4QRAMC1nWeN5W2BltNc2eAE++C8lwXcWZ6E1ZJwi4=\r",
+        "PresharedKey": "UOxb2sqqS/KGGkQp+t7Xs51rfySzeww0xcFIeaJZCjg=\r"
+    },
+    "23": {
+        "id": "23",
+        "name": "n21",
+        "AllowedIPs": "10.66.66.23/32,fd42:42:42::23/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "ffPf2XQCqBqinWKbeA0YTeaTMcN6tuOBhjjKPi1eklM=\r",
+        "PresharedKey": "nd2MfcKR3+9zwRHNAfXTjd550UJb766Hj5hgO1NYg+I=\r"
+    },
+    "24": {
+        "id": "24",
+        "name": "n22",
+        "AllowedIPs": "10.66.66.24/32,fd42:42:42::24/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "VcWJcIgEaJ9Q+XJFc9TWLOPLU8D5MTaobXSPt7+OVAg=\r",
+        "PresharedKey": "ZyMKQGJsCZg9Z2pWbRMN8ZPsG27SoPbAy16wVy1u67M=\r"
+    },
+    "25": {
+        "id": "25",
+        "name": "n23",
+        "AllowedIPs": "10.66.66.25/32,fd42:42:42::25/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "Mrx/OIScOJ6tYKANcc2r1TxO7LA+2Zv43csI7B7nYRY=\r",
+        "PresharedKey": "bATad7Q5XQy4zlGA/FtrUIgG8GGEB0s+jDRjLNY2Rrs=\r"
+    },
+    "26": {
+        "id": "26",
+        "name": "n24",
+        "AllowedIPs": "10.66.66.26/32,fd42:42:42::26/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "VPUjXenvyP745LSeym53W2qpgu/vbGnk9sdwTBN4Knc=\r",
+        "PresharedKey": "rHTSu6EXheU77pyX0QgsevJIE91fV8GkXewwPzLRYRI=\r"
+    },
+    "27": {
+        "id": "27",
+        "name": "n25",
+        "AllowedIPs": "10.66.66.27/32,fd42:42:42::27/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "MJttengur+chmrsImAlDruXhlVqaPTUkk/2oHK7K22c=\r",
+        "PresharedKey": "/Zl+OhCSrCSaxPUdBgzcfP5cppaAKX3YhQjLNYpQO5Y=\r"
+    },
+    "28": {
+        "id": "28",
+        "name": "Новыйосновной",
+        "AllowedIPs": "10.66.66.28/32,fd42:42:42::28/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "KnAKyEZIzOwMdg7vSOcprE7wlIAR10jBdHK4Ke7wXWg=\r",
+        "PresharedKey": "/LrMBUeUnV0aUfJCjGrbGBMc9LvW99Z180CX4z2m0/I=\r"
+    },
+    "29": {
+        "id": "29",
+        "name": "➕Создатьпользователя.",
+        "AllowedIPs": "10.66.66.29/32,fd42:42:42::29/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "h7Q7ChJdHA7NwWhF98j8jS9v1X29aaWz9YT7iiwwEBo=\r",
+        "PresharedKey": "bndAJ1zqKgFSrFkqWtsHCjZdCutBlOF9qz8hT9Z0Y8c=\r"
+    },
+    "30": {
+        "id": "30",
+        "name": "Hastya1",
+        "AllowedIPs": "10.66.66.30/32,fd42:42:42::30/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "fvDOda78eLmgGEjrpPICKXgrky3pMBPptpzr86kLNHY=\r",
+        "PresharedKey": "G7Wv0NewyKS78iH8QOVHG6htl2ItuPeUO31EVlor8zY=\r"
+    },
+    "31": {
+        "id": "31",
+        "name": "Home",
+        "AllowedIPs": "10.66.66.31/32,fd42:42:42::31/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "Fhk+BlY8rSJglhHXF+NimbTRAurBZ9S9gdZ+Sq6nZ1w=\r",
+        "PresharedKey": "cPsDSDLXXwPvd0euBY7PEPC6SKybSylmjY+rvaXQ3jI=\r"
+    },
+    "32": {
+        "id": "32",
+        "name": "OksanaCH",
+        "AllowedIPs": "10.66.66.32/32,fd42:42:42::32/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "mhSPKenm8g8jDKIkdPP83BOm4m3v6D8mE/nCsgcU9FU=\r",
+        "PresharedKey": "Ew0zSg9wngARX0S4omW/lEc1vVVflK6CIaqhLUjQ/pg=\r"
+    },
+    "33": {
+        "id": "33",
+        "name": "Test",
+        "AllowedIPs": "10.66.66.33/32,fd42:42:42::33/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "c8njRNkDnMB3rjw5dAyVQEUVp1ADHQVyrps45sCkDlg=\r",
+        "PresharedKey": "Tn9iLYVY9ip6zaalg3EWj+AN5QaRWIkaV3BpfhvKUcA=\r"
+    },
+    "35": {
+        "id": "35",
+        "name": "Aleksey",
+        "AllowedIPs": "10.66.66.35/32,fd42:42:42::35/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "shiwSF8L7uFN1PndBSemRX2eAr/c/b4qeKaXbV3hBjA=\r",
+        "PresharedKey": "MHUM1O3SQ+BDyj/p+ikQftNws3hW+r3Ib7p74HDOtkI=\r"
+    },
+    "36": {
+        "id": "36",
+        "name": "ИванСтеп4",
+        "AllowedIPs": "10.66.66.36/32,fd42:42:42::36/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "HL9Nu1oAlw06c/eML6t3bEZOg05Hr11w8bnx6GVP2x4=\r",
+        "PresharedKey": "9geeviNLR6qPd3VCEimk3T7CI69j7NlHEsWUcr0Yw3s=\r"
+    },
+    "37": {
+        "id": "37",
+        "name": "31",
+        "AllowedIPs": "10.66.66.37/32,fd42:42:42::37/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "QxSWuKpEXHTBMYT2NK05qg7XDeniCL81zfqWk2up9Hs=\r",
+        "PresharedKey": "v0ChhaNvGnBZIc7foHKZiP8rbyfLcmFGkRIG8unRNB8=\r"
+    },
+    "38": {
+        "id": "38",
+        "name": "59",
+        "AllowedIPs": "10.66.66.38/32,fd42:42:42::38/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "WTM8TwrLvlnnjWWzeLlRL1qVTVjmuHbjhtsmuIvr73M=\r",
+        "PresharedKey": "84sWpoeBpnkiQczdnd/u8/eEBoXaUgCDuuw4C8XuFQQ=\r"
+    },
+    "39": {
+        "id": "39",
+        "name": "Fosterr789",
+        "AllowedIPs": "10.66.66.39/32,fd42:42:42::39/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "f8SBiPrvFd8gKcdDGImWWjhmoWybDOaOuaF7pMyZsV8=\r",
+        "PresharedKey": "NjFDNWw9FKAyYXpGnJ55XK9PYuRZR2uhJh2rZgwnzWU=\r"
+    },
+    "40": {
+        "id": "40",
+        "name": "Влад",
+        "AllowedIPs": "10.66.66.40/32,fd42:42:42::40/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "0pzeEv7Ri/Pwb2exCTAk/1tTYwGvoqXXjiRYHm+Ccnk=\r",
+        "PresharedKey": "1nDniznytR4Fgu/Utv8tSljW13bU4da5ozvBcJF85Qw=\r"
+    },
+    "41": {
+        "id": "41",
+        "name": "21",
+        "AllowedIPs": "10.66.66.41/32,fd42:42:42::41/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "w03FcqvlU9hV42JSpTtwpQKYxwTaS7j+oTjqdABy6G4=\r",
+        "PresharedKey": "6N+o47S8zfcRXMcZghJiYLD+QIuhvrJo1Bi8PYrf5rc=\r"
+    },
+    "42": {
+        "id": "42",
+        "name": "NastayKotova",
+        "AllowedIPs": "10.66.66.42/32,fd42:42:42::42/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "2yTjL13gXoqy5R1SdZgeYb5+BFZdHXARS4zaHlpKsno=\r",
+        "PresharedKey": "cs8KFqvqLDXRhmB1/fLOM+FZHs6VIeCWi3t+eKKAObM=\r"
+    },
+    "43": {
+        "id": "43",
+        "name": "Olga",
+        "AllowedIPs": "10.66.66.43/32,fd42:42:42::43/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "shMUoGdSIeDNotwI83RKRNBgWmhP1eZxzoGsxftJ1As=\r",
+        "PresharedKey": "KkrUATiMl5OPUip2VVigvvRVHjuWkpcbHN2xRQi93mw=\r"
+    },
+    "44": {
+        "id": "44",
+        "name": "Nikitalast",
+        "AllowedIPs": "10.66.66.44/32,fd42:42:42::44/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "nOxIHHmEJ/zSnnxS52ier3w+2Ty7nfBSRoVESmK8GFA=\r",
+        "PresharedKey": "/rudi/vg2OtlO8iLz2lGAlWJ2hFkFOIGBlAEkBZ2+DQ=\r"
+    },
+    "45": {
+        "id": "45",
+        "name": "23",
+        "AllowedIPs": "10.66.66.45/32,fd42:42:42::45/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "WuRPQ+R9+mPLgeGNTmhAsrnvbnh7yHT8gZ2deTwPZSc=\r",
+        "PresharedKey": "z7Igj5XwY9QDtaaoHfONhypxawqTrJJSv7j9BsZx0ho=\r"
+    },
+    "46": {
+        "id": "46",
+        "name": "23-1",
+        "AllowedIPs": "10.66.66.46/32,fd42:42:42::46/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "2w+SO/PznN7ORI+B9N0Uo4BR+TfbZ1+PbAiv5xchzSI=\r",
+        "PresharedKey": "qJi+3nehRpGLd25dlEYYlbWJFJrFlKGv8WIRb78YB1k=\r"
+    },
+    "47": {
+        "id": "47",
+        "name": "Mariya5",
+        "AllowedIPs": "10.66.66.47/32,fd42:42:42::47/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "3CEK2GsunibfxcGrLP/kjqcltDj0jGtZzqD7UQjhQSs=\r",
+        "PresharedKey": "MGBRBuaaV/S6G7vgAks/WqDzvd7MZidOCxlL3zgkboI=\r"
+    },
+    "48": {
+        "id": "48",
+        "name": "Alina_Ivana",
+        "AllowedIPs": "10.66.66.48/32,fd42:42:42::48/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "OXi5uyFyG/OXke0LDV9dn5CLYG+ffpviBg90MAAWG1U=\r",
+        "PresharedKey": "1FK18L9VNsCyFFXi7FHDOV1c1a0M0asFfSCxdoCQi9g=\r"
+    },
+    "49": {
+        "id": "49",
+        "name": "25",
+        "AllowedIPs": "10.66.66.49/32,fd42:42:42::49/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "oz4Z+HLQuKmf7NBpqsbh8q6CgF2Y29KYS6TSCgX4k0g=\r",
+        "PresharedKey": "/b2AS34cVxLKTNTga1NBNpGR3QKnhBqLyS2LIJ8M+wo=\r"
+    },
+    "51": {
+        "id": "51",
+        "name": "Kirill1",
+        "AllowedIPs": "10.66.66.51/32,fd42:42:42::51/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "Q4QtAy1QSlOGp0ocgiV/ZDIK/RES/HY6HR9heObkMTs=\r",
+        "PresharedKey": "GBJC891TOhb69RVM+bszaJRK1CbtE5cNqdUw1yt4uPw=\r"
+    },
+    "52": {
+        "id": "52",
+        "name": "Alena1",
+        "AllowedIPs": "10.66.66.52/32,fd42:42:42::52/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "wIm31PMSksRDvsxu1hVO/TTVfymIIcobGMc8Ij2HvSA=\r",
+        "PresharedKey": "hv4YBrKJc8aS1qUkEfEm4VTw8cs57rA6Xpq+BkaEuC4=\r"
+    },
+    "53": {
+        "id": "53",
+        "name": "Anchelika1",
+        "AllowedIPs": "10.66.66.53/32,fd42:42:42::53/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "0AgJTujZK4yOFmkdVJwn6WvZXYPA5OFrB9iC68ERFEc=\r",
+        "PresharedKey": "vuImhaqhyIlMlBVoeSArpcIwNe39pqYdgwQLxNnR2EY=\r"
+    },
+    "54": {
+        "id": "54",
+        "name": "Sergei",
+        "AllowedIPs": "10.66.66.54/32,fd42:42:42::54/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "Aw86tfcg4c7WYHWdWKYpIwWXzW7nrWsMUHY8bjgM8gY=\r",
+        "PresharedKey": "dVwBBoQPsS5RGVZpHkVcM0uboNyB6i5O0i4tK5fijBg=\r"
+    },
+    "55": {
+        "id": "55",
+        "name": "Какупшев",
+        "AllowedIPs": "10.66.66.55/32,fd42:42:42::55/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "ArgnwrWfoAm8JIMJzGZ8G2exwLEne00uYnV4sT5dv0w=\r",
+        "PresharedKey": "E42ECzW9IbkG/dfEFTrBpJPmSY2nq8ckoPJ8EjmTedE=\r"
+    },
+    "56": {
+        "id": "56",
+        "name": "mangalin",
+        "AllowedIPs": "10.66.66.56/32,fd42:42:42::56/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "AW/FSUZb5ezxsYohOfwkFPPuBPSRWQGxkBKcNLJoYWE=\r",
+        "PresharedKey": "fCCFWIH6oXqutYu8HHKttK1un2YA1lriSgzPtu35VLo=\r"
+    },
+    "57": {
+        "id": "57",
+        "name": "Sergei1",
+        "AllowedIPs": "10.66.66.57/32,fd42:42:42::57/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "wNWARDpcYvpAsvLunxEwNPLEMYEqcqRXHt7NG997cTE=\r",
+        "PresharedKey": "IeSiQd//MXDMPKN1gF+ASKf4RqfCelIorMJUJwHwOao=\r"
+    },
+    "58": {
+        "id": "58",
+        "name": "Tati",
+        "AllowedIPs": "10.66.66.58/32,fd42:42:42::58/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "GcVVFu4J2Q3ehyFxlxgMybXTYIsINx/FMWO41fJW1Q0=\r",
+        "PresharedKey": "ut0EeN9jRxo3VK8B0NDUhpeXRaLwClbTOfEgF5gVVg4=\r"
+    },
+    "59": {
+        "id": "59",
+        "name": "Tanucha1",
+        "AllowedIPs": "10.66.66.59/32,fd42:42:42::59/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "Z3+gZo+/TMeK0Qw/0BvWh0Z058QaoC+9/kyznAqySxo=\r",
+        "PresharedKey": "8PnCM0jsI8OzjUmhwUL012WBHoq9eyhfT3efaLzP2Ug=\r"
+    },
+    "60": {
+        "id": "60",
+        "name": "Тема",
+        "AllowedIPs": "10.66.66.60/32,fd42:42:42::60/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "EhQcVhZ7NPjycew63Ksl91TOezaD+bQNNvFCumrcqE4=\r",
+        "PresharedKey": "zFnXb7k6Y295xUBNMiGfLysKRMvWBDyGp5A8NzRuXrM=\r"
+    },
+    "61": {
+        "id": "61",
+        "name": "ВасилисаТемы",
+        "AllowedIPs": "10.66.66.61/32,fd42:42:42::61/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "lVWkp9iz95Lj18hqwZzxUo8+RCZMjYoaRHHlFp3z2ns=\r",
+        "PresharedKey": "iFmUKoOHyFADm9bFR1YXECNb14KlitBajwoTlFyfC5E=\r"
+    },
+    "62": {
+        "id": "62",
+        "name": "Much",
+        "AllowedIPs": "10.66.66.62/32,fd42:42:42::62/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "LrzimPShMi+Ffc24ziRxhHSfO/RzOgEECPVEcdUXdkc=\r",
+        "PresharedKey": "0nls3zgRXbvzc8vMPGn0nEiFijIY+F/c3BeMdqMx7G0=\r"
+    },
+    "63": {
+        "id": "63",
+        "name": "Lexa",
+        "AllowedIPs": "10.66.66.63/32,fd42:42:42::63/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "S11jS6M555YJnBW8mEljkAZP6ITtpaikUotpkcMikzA=\r",
+        "PresharedKey": "ear6W0xZUMwZivf6twSYamHOtxatTUBwqXNFU1bVf/E=\r"
+    },
+    "64": {
+        "id": "64",
+        "name": "Настя",
+        "AllowedIPs": "10.66.66.64/32,fd42:42:42::64/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "cInLD3Zyu+nwaRuhM2EtPBWMk+NHILPRU0mRlSy7hFQ=\r",
+        "PresharedKey": "JQauiyRohRFs1xrJpNo2vYZonhq2GZKrSgmeVuFcJpc=\r"
+    },
+    "65": {
+        "id": "65",
+        "name": "Комар",
+        "AllowedIPs": "10.66.66.65/32,fd42:42:42::65/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "dv0DngSYCQeoVTpV53pOm6TwagL5gWyY9lmreN8z+Ag=\r",
+        "PresharedKey": "cddvLctE3MCQqfzpcYKDCYAAjXwKls+dfFO2VkTJ65w=\r"
+    },
+    "66": {
+        "id": "66",
+        "name": "Коля",
+        "AllowedIPs": "10.66.66.66/32,fd42:42:42::66/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "BdF6iuRSMo8yQmFGBuh4xH5I51iSM4g8RW7gTEn9jBU=\r",
+        "PresharedKey": "B/lapCKEh0utXwcMOIf1hgpiJmSylUTQaOPcwyPsOxo=\r"
+    },
+    "67": {
+        "id": "67",
+        "name": "Василиса",
+        "AllowedIPs": "10.66.66.67/32,fd42:42:42::67/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "2bzlTOsWlX02c/C5YbHlyGr7aUV0E/Psz4hrVaOaWyc=\r",
+        "PresharedKey": "7JZGz3PTsprDL2Z6L0Eq6TWGTbaRonhs7/2/hWoUN38=\r"
+    },
+    "68": {
+        "id": "68",
+        "name": "Kris",
+        "AllowedIPs": "10.66.66.68/32,fd42:42:42::68/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "nGxhwGEtMua34H0SePQryrXRcCbrm+WZpDg/D/glMVA=\r",
+        "PresharedKey": "7WjmJx4JR5Z5r29P6zyGRoK6nWN+mf6oq6SRnDt33D8=\r"
+    },
+    "100": {
+        "id": "100",
+        "name": "111",
+        "AllowedIPs": "10.66.66.100/32,fd42:42:42::36/128\r",
+        "lifetime": 2079557362266,
+        "banned": false,
+        "PrivateKey": "",
+        "PublicKey": "agqqv19Ra5JkKsG/EdGdqgZB0QarJ8P6+g5+Tjdl6W8=\r",
+        "PresharedKey": "PBhDAJpWXAMiFztcCUqmSv1kE1jNhgbeXlncMSKu9og=\r"
+    }
+}

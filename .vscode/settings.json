@@ -2,5 +2,6 @@
     "cSpell.words": [
         "Unban",
         "wgcore"
-    ]
+    ],
+    "postman.settings.dotenv-detection-notification-visibility": false
 }
